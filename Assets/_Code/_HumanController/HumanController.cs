@@ -24,5 +24,10 @@ public class HumanController : NetworkBehaviour
                 _animator.SetFloat("Walk", 3);
             }
         }
+        else
+        {
+            this.gameObject.GetComponent<HumanController>().enabled = false;
+            this.gameObject.GetComponentInChildren<Camera>().enabled = false;
+        }
     }
 }

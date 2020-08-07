@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3F40AC3A-CC7D-8ED2-E51B-597DD01F9374}</ProjectGuid>
+    <ProjectGuid>{FE52818C-3372-AC11-6C42-D7E7C9042C39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Examples.Cloud.Pong</AssemblyName>
@@ -69,10 +69,10 @@
     <Compile Include="Assets\Mirror\Examples\Cloud\PongWithListServer\Scripts\Player.cs" />
     <None Include="Assets\Mirror\Examples\Cloud\PongWithListServer\Scripts\Mirror.Examples.Cloud.Pong.asmdef" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -264,16 +264,16 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -623,15 +623,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{FEB8C7D0-6C4E-9C34-7F14-32FA3CC339D8}</Project>
+      <Project>{B647664D-DE62-2163-0822-C48B77E9B7B7}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Cloud.csproj">
-      <Project>{6DFACF1A-D0DF-4657-A983-5BA6C30E1D08}</Project>
+      <Project>{F8A5DDEC-28C0-5321-314F-29DBD22AE50C}</Project>
       <Name>Mirror.Cloud</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.Cloud.GUI.csproj">
-      <Project>{5F0B828C-9F10-D41B-97F2-6D2012BE2744}</Project>
+      <Project>{F9278691-6822-4E9B-5785-D21E8B9CE079}</Project>
       <Name>Mirror.Examples.Cloud.GUI</Name>
     </ProjectReference>
   </ItemGroup>

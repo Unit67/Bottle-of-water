@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F9290364-EF67-8F38-6648-C86BF4B272DF}</ProjectGuid>
+    <ProjectGuid>{90A83F6A-89AE-ADB8-8843-E7609511FD67}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Code\_Bottle\BottleController.cs" />
     <Compile Include="Assets\_Code\_HumanController\HumanController.cs" />
     <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
@@ -77,31 +78,31 @@
     <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
     <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -281,16 +282,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Rocks">
-      <HintPath>C:/Users/Unit6/Bottle of water V2/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+      <HintPath>C:/Users/Unit6/Bottle-of-water/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -640,51 +641,51 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.Weaver.csproj">
-      <Project>{621514F1-5025-20D3-C5FF-7EC417B921B5}</Project>
+      <Project>{C471B846-1348-DA0F-C7A1-D587E1D9941E}</Project>
       <Name>Mirror.Weaver</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{8A9A6CF2-AC9D-6537-BFEA-C58DB07839AA}</Project>
+      <Project>{CD87755B-D0FD-CB3C-3D6F-8118708E2564}</Project>
       <Name>Mirror.Authenticators</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{9ECE41C3-BDF9-6F69-E961-80B2EC9B8115}</Project>
+      <Project>{39E98C56-AA61-6E97-CD12-D425B9D80A95}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{51876A12-329C-8735-71C4-66007D983866}</Project>
+      <Project>{F0318674-8B0C-A1CC-2A5A-AAD99C152BEA}</Project>
       <Name>Mirror.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{B782FF69-3C64-AA42-2E33-315C49488055}</Project>
+      <Project>{1DB97F40-F36E-8482-0274-5654C2891124}</Project>
       <Name>Mirror.CompilerSymbols</Name>
     </ProjectReference>
     <ProjectReference Include="Ninja.WebSockets.csproj">
-      <Project>{20CA77E1-ED33-299E-0F9B-37814CDEBB65}</Project>
+      <Project>{0A536C21-DE6D-7EC7-D0CE-45F123897226}</Project>
       <Name>Ninja.WebSockets</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Cloud.csproj">
-      <Project>{6DFACF1A-D0DF-4657-A983-5BA6C30E1D08}</Project>
+      <Project>{F8A5DDEC-28C0-5321-314F-29DBD22AE50C}</Project>
       <Name>Mirror.Cloud</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.Cloud.Pong.csproj">
-      <Project>{3F40AC3A-CC7D-8ED2-E51B-597DD01F9374}</Project>
+      <Project>{FE52818C-3372-AC11-6C42-D7E7C9042C39}</Project>
       <Name>Mirror.Examples.Cloud.Pong</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{FEB8C7D0-6C4E-9C34-7F14-32FA3CC339D8}</Project>
+      <Project>{B647664D-DE62-2163-0822-C48B77E9B7B7}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.example.RigidbodyPhysics.csproj">
-      <Project>{4B5C51CE-7B97-00E8-D1CB-957BA72D4F5A}</Project>
+      <Project>{A6686614-AA7E-B2C8-6753-1FD9141EDB2A}</Project>
       <Name>Mirror.example.RigidbodyPhysics</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{AB3B9E33-DA17-EB27-CEFE-1F38F4DB5FF5}</Project>
+      <Project>{CBC2E2CC-B241-878E-C85E-9E1ED919C132}</Project>
       <Name>Mirror.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.Cloud.GUI.csproj">
-      <Project>{5F0B828C-9F10-D41B-97F2-6D2012BE2744}</Project>
+      <Project>{F9278691-6822-4E9B-5785-D21E8B9CE079}</Project>
       <Name>Mirror.Examples.Cloud.GUI</Name>
     </ProjectReference>
   </ItemGroup>

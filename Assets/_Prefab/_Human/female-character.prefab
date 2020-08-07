@@ -4340,7 +4340,8 @@ GameObject:
   - component: {fileID: 6092820413031846914}
   - component: {fileID: 6092820413031846913}
   - component: {fileID: -4228291462803217386}
-  - component: {fileID: 7746978978115619411}
+  - component: {fileID: 4397270900725709109}
+  - component: {fileID: 1282093408770714162}
   m_Layer: 0
   m_Name: female-character
   m_TagString: Untagged
@@ -4429,11 +4430,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneId: 290363308
+  sceneId: 3497716427
   serverOnly: 0
   m_AssetId: 
   hasSpawned: 0
---- !u!114 &7746978978115619411
+--- !u!114 &4397270900725709109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4451,6 +4452,22 @@ MonoBehaviour:
   localPositionSensitivity: 0.01
   localRotationSensitivity: 0.01
   localScaleSensitivity: 0.01
+--- !u!114 &1282093408770714162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859758226158815331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 1
+  syncInterval: 0.01
+  clientAuthority: 1
+  animator: {fileID: 9186988016985495306}
 --- !u!1 &2902096556703476659
 GameObject:
   m_ObjectHideFlags: 0
