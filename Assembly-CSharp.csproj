@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{90A83F6A-89AE-ADB8-8843-E7609511FD67}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -63,7 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Code\_Bottle\BottleController.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_Camera\CameraController.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_Movement\BottleController.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_Movement\BottleControllerNoAnim.cs" />
     <Compile Include="Assets\_Code\_HumanController\HumanController.cs" />
     <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />

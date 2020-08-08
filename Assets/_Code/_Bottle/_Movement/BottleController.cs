@@ -1,4 +1,5 @@
-﻿using Mirror;
+﻿using JetBrains.Annotations;
+using Mirror;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +7,7 @@ using UnityEngine.Networking;
 public class BottleController : NetworkBehaviour
 {
     private Animator _animator;
-
+    public float MoveSpeed = 5.0f;
     private void Start()
     {
         _animator = this.gameObject.GetComponent<Animator>();
@@ -18,6 +19,8 @@ public class BottleController : NetworkBehaviour
         {
             _animator.SetFloat("HorizontalWalk", Input.GetAxis("Horizontal"));
             _animator.SetFloat("Walk", Sprint("Vertical",KeyCode.LeftShift));
+
+            //this.gameObject.GetComponent<Rigidbody>().velocity += new Vector3(0, 0, _animator.GetFloat("Walk") * MoveSpeed * Time.deltaTime);
         }
         else
         {
