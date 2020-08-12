@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4613429482574770539}
   - component: {fileID: 9011121083259765975}
   - component: {fileID: 572719753330874550}
+  - component: {fileID: 3254873789228357034}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: Untagged
@@ -121,6 +122,8 @@ MonoBehaviour:
   WalkSpeed: 5
   SprintSpeed: 10
   CameraContainer: {fileID: 6291746858782875202}
+  controllerManager: {fileID: 0}
+  ControllerManager: {fileID: 0}
 --- !u!143 &4702060059874074429
 CharacterController:
   m_ObjectHideFlags: 0
@@ -186,6 +189,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.005847033, y: 0.005847032, z: 0.023756327}
   m_Center: {x: 0, y: 0, z: 0.0017178205}
+--- !u!195 &3254873789228357034
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021195577275671151}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.013595989
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.0058470345
+  m_BaseOffset: 0.0029235173
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6291746858782875202
 GameObject:
   m_ObjectHideFlags: 0

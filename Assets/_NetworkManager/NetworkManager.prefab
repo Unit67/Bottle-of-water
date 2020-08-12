@@ -9,9 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9050507070270983463}
+  - component: {fileID: 6776128711705933334}
   - component: {fileID: 9050507070270983457}
   - component: {fileID: 9050507070270983462}
   - component: {fileID: 9050507070270983456}
+  - component: {fileID: 1371873916128167372}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -33,6 +35,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6776128711705933334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050507070270983460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25beb1a467b1842a7236a4f3481d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  _Player2: {fileID: 1021195577275671151, guid: 6b6786631155b034689b2d47b1901b0d,
+    type: 3}
 --- !u!114 &9050507070270983457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,3 +138,19 @@ MonoBehaviour:
   showGUI: 1
   offsetX: 0
   offsetY: 0
+--- !u!114 &1371873916128167372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9050507070270983460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  m_AssetId: 20639cce3e22f21489eff5a5791df638
+  hasSpawned: 0

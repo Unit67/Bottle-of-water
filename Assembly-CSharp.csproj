@@ -63,11 +63,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Code\_Bottle\_AIController\AlertState.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_AIController\EnemyStates.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_AIController\IBottleAI.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_AIController\Patrol.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_AIController\RunAway.cs" />
+    <Compile Include="Assets\_Code\_Bottle\_AIController\ToChase.cs" />
     <Compile Include="Assets\_Code\_Bottle\_Camera\CameraController.cs" />
     <Compile Include="Assets\_Code\_Bottle\_ControlerManager\ControllerManager.cs" />
     <Compile Include="Assets\_Code\_Bottle\_Movement\BottleController.cs" />
     <Compile Include="Assets\_Code\_Bottle\_Movement\BottleControllerNoAnim.cs" />
     <Compile Include="Assets\_Code\_HumanController\HumanController.cs" />
+    <Compile Include="Assets\_Code\_NetworkController\NetworkUI.cs" />
+    <Compile Include="Assets\_Code\_NetworkController\SpawnPlayer.cs" />
+    <Compile Include="Assets\_Code\_PlayerManager\PlayerManager.cs" />
     <Compile Include="Assets\Xsens\MVN Sample Pack\Script\PlayerControl.cs" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />

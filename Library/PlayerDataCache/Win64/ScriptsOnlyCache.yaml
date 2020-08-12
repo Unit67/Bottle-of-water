@@ -3,7 +3,12 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BottleControllerNoAnim
     - CameraController
+    - ControllerManager
     - HumanController
+    - NetworkUI
+    - SpawnPlayer
+    Mirror.Authenticators.dll:
+    - Mirror.Authenticators.BasicAuthenticator
     Mirror.Components.dll:
     - Mirror.NetworkAnimator
     - Mirror.NetworkTransform
@@ -25,6 +30,11 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/1.unity:
     - Class: 1
@@ -54,9 +64,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9874}
     - Class: 114
-      Script: {instanceID: 10380}
+      Script: {instanceID: 10382}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 10530}
+    - Class: 114
+      Script: {instanceID: 11784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -103,24 +115,52 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9680}
     - Class: 114
-      Script: {instanceID: 9752}
+      Script: {instanceID: 9684}
     - Class: 114
       Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 10522}
+      Script: {instanceID: 9890}
     - Class: 114
-      Script: {instanceID: 11032}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 11386}
+      Script: {instanceID: 9936}
     - Class: 114
-      Script: {instanceID: 11564}
+      Script: {instanceID: 10382}
+    - Class: 114
+      Script: {instanceID: 10524}
+    - Class: 114
+      Script: {instanceID: 10652}
+    - Class: 114
+      Script: {instanceID: 10798}
+    - Class: 114
+      Script: {instanceID: 11036}
+    - Class: 114
+      Script: {instanceID: 11340}
+    - Class: 114
+      Script: {instanceID: 11390}
+    - Class: 114
+      Script: {instanceID: 11568}
+    - Class: 114
+      Script: {instanceID: 11784}
+    - Class: 114
+      Script: {instanceID: 17766}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -233,6 +273,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 74ef9c348265617f655072a8c2acc585
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnPlayer
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -487,10 +533,16 @@ ScriptsOnlyBuild:
     className: NetworkRigidbody
   - hash:
       serializedVersion: 2
-      Hash: d16aab1573358d839e27bef45f90f7ff
+      Hash: 147ca14a885ef68dcf4771bab12e19dd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BottleControllerNoAnim
+  - hash:
+      serializedVersion: 2
+      Hash: e3741ed1caf7de2db1e927961d80b65a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControllerManager
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -1003,6 +1055,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerManager
+  - hash:
+      serializedVersion: 2
       Hash: 4c790fa3b7c93033baa4406ca5ac8c04
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.MultipleAdditiveScenes
@@ -1019,9 +1077,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 638704fc16603333c6db9559266c6b70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkUI
   platform: 19
   scenePathNames:
   - Assets/Scenes/offline.unity
   - Assets/Scenes/1.unity
-  playerPath: C:/Users/Unit6/Bottle of water V2/Build/Online Test/Bottle of water
+  playerPath: C:/Users/Unit6/Bottle of water V2/Build/Online Test2/Bottle of water
     V2.exe
